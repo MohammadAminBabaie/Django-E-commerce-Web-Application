@@ -261,6 +261,11 @@ class ProductGallery(models.Model):
         verbose_name = "تصویر"
         verbose_name_plural = "تصاویر"
 
+    def __str__(self):
+        model_name = self.__class__.__name__
+        fields_str = ", ".join((f"{field.name}={getattr(self, field.name)}" for field in self._meta.fields))
+        return f"{model_name}({fields_str})"
+
 
 # todo --------------------------------------------------------------------
 class ProductColor(models.Model):
