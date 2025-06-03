@@ -40,5 +40,5 @@ A full-featured e-commerce website built with **Django** and **Python**, designe
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/MohammadAminBabaie/Django_Project_Mit_Shop
+   git clone https://github.com/MohammadAminBabaie/Django-E-commerce-Web-Application
    cd ecommerce-project
